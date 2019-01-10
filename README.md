@@ -1,2 +1,3 @@
 # PHP-Login-System
-Linux-Apache-MySQL-PHP-
+Login system with user registration
+
