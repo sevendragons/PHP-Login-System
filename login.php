@@ -28,7 +28,7 @@
     <p>
       <a href="/">Home</a>
     </p>
-    
+
     <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid="">
 
       <form class="uk-form-horizontal uk-margin-large js-login">
@@ -39,12 +39,6 @@
             </div>
         </div>
 
-        <div class="uk-margin">
-            <label class="uk-form-label" for="form-horizontal-text">Confirm Password</label>
-            <div class="uk-form-controls">
-                <input class="uk-input" id="form-horizontal-text" type="text" required="required" placeholder="Confirm Password">
-            </div>
-        </div>
         <div class="uk-margin">
             <label class="uk-form-label" for="form-horizontal-text">Password</label>
             <div class="uk-form-controls">

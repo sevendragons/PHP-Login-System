@@ -21,6 +21,13 @@
 
 
   <title>PHP login</title>
+  <style media="screen">
+    .uk-form-horizontal{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  </style>
 </head>
 <body>
   <h1 class="uk-text-center">Register</h1>
@@ -44,6 +51,14 @@
                 <input class="uk-input" id="form-horizontal-text" type="text" required="required" placeholder="Password">
             </div>
         </div>
+
+        <div class="uk-margin">
+            <label class="uk-form-label" for="form-horizontal-text">Confirm Password</label>
+            <div class="uk-form-controls">
+                <input class="uk-input" id="form-horizontal-text" type="text" required="required" placeholder="Confirm Password">
+            </div>
+        </div>
+
 
         <button class="uk-button uk-button-default" type="submit">Register</button>
 
